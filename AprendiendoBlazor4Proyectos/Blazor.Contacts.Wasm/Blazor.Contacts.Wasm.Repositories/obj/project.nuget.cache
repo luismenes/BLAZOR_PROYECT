@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l/jf6UrLCmYVwhwHLb0fbknBvQd5rnjCT0TMRfqsw1vc1Jrr+O8mSAqj8RxJOylOmHzD9X6/xjKgQhihNIAW+Q==",
+  "dgSpecHash": "KqZ08ZeHV3GlBQUgr0He0G3LK2XObYQXSO6t4YEyK5zwPYz/zlmQkFEdyQZ4V+lnSPgzihKgFYSxtKVH5RQm2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm.Repositories\\Blazor.Contacts.Wasm.Repositories.csproj",
+  "projectFilePath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm.Repositories\\Blazor.Contacts.Wasm.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Teletrabajo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Teletrabajo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

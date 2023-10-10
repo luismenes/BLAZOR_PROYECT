@@ -3938,11 +3938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Server\\Blazor.Contacts.Wasm.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Server\\Blazor.Contacts.Wasm.Server.csproj",
       "projectName": "Blazor.Contacts.Wasm.Server",
-      "projectPath": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Server\\Blazor.Contacts.Wasm.Server.csproj",
+      "projectPath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Server\\Blazor.Contacts.Wasm.Server.csproj",
       "packagesPath": "C:\\Users\\Teletrabajo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Server\\obj\\",
+      "outputPath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Teletrabajo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3959,14 +3959,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm.Repositories\\Blazor.Contacts.Wasm.Repositories.csproj": {
-              "projectPath": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm.Repositories\\Blazor.Contacts.Wasm.Repositories.csproj"
+            "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm.Repositories\\Blazor.Contacts.Wasm.Repositories.csproj": {
+              "projectPath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm.Repositories\\Blazor.Contacts.Wasm.Repositories.csproj"
             },
-            "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Client\\Blazor.Contacts.Wasm.Client.csproj": {
-              "projectPath": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Client\\Blazor.Contacts.Wasm.Client.csproj"
+            "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Client\\Blazor.Contacts.Wasm.Client.csproj": {
+              "projectPath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Client\\Blazor.Contacts.Wasm.Client.csproj"
             },
-            "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj": {
-              "projectPath": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj"
+            "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj": {
+              "projectPath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj"
             }
           }
         }

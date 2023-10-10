@@ -1,0 +1,8 @@
+Install-Package Microsoft.EntityFrameworkCore.Tools
+
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+
+Scaffold-DbContext "Data Source=-OS\MSSQLSERVEROS;Initial Catalog=ContactsDB;User ID=sa;Password=12345;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+

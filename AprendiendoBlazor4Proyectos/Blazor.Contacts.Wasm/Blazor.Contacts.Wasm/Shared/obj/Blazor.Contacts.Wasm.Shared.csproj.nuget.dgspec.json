@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj": {}
+    "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj": {
+    "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj",
         "projectName": "Blazor.Contacts.Wasm.Shared",
-        "projectPath": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj",
+        "projectPath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\Blazor.Contacts.Wasm.Shared.csproj",
         "packagesPath": "C:\\Users\\Teletrabajo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Teletrabajo\\source\\repos\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\Blazor.Contacts.Wasm\\Blazor.Contacts.Wasm\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Teletrabajo\\AppData\\Roaming\\NuGet\\NuGet.Config",
