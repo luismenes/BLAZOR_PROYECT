@@ -1,0 +1,15 @@
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\bin\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.deps.json
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\bin\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.dll
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\bin\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.pdb
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\bin\Debug\net6.0\Blazor.Contacts.Wasm.Shared.dll
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\bin\Debug\net6.0\Blazor.Contacts.Wasm.Shared.pdb
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.csproj.AssemblyReference.cache
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.AssemblyInfoInputs.cache
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.AssemblyInfo.cs
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.csproj.CopyComplete
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.dll
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\refint\Blazor.Contacts.Wasm.Repositories.dll
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\Blazor.Contacts.Wasm.Repositories.pdb
+C:\Users\Teletrabajo\source\repos\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm.Repositories\obj\Debug\net6.0\ref\Blazor.Contacts.Wasm.Repositories.dll

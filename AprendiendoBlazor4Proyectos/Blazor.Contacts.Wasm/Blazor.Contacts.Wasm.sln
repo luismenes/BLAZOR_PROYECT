@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Contacts.Wasm.Server", "Blazor.Contacts.Wasm\Server\Blazor.Contacts.Wasm.Server.csproj", "{DC958E3C-1BD3-4720-BB47-D948F5B05590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Contacts.Wasm.Client", "Blazor.Contacts.Wasm\Client\Blazor.Contacts.Wasm.Client.csproj", "{05F7B9A0-E179-4DBC-A0EB-03815E8330D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Contacts.Wasm.Shared", "Blazor.Contacts.Wasm\Shared\Blazor.Contacts.Wasm.Shared.csproj", "{174E5061-CEF1-4B87-8E9F-8C7BF52528EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Contacts.Wasm.Repositories", "Blazor.Contacts.Wasm.Repositories\Blazor.Contacts.Wasm.Repositories.csproj", "{A5464BC1-813A-4E05-97E8-84C01CC75936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Contacts.Wasm.Service", "Blazor.Contacts.Wasm.Service\Blazor.Contacts.Wasm.Service.csproj", "{117DE24A-F4BA-4CB7-9036-8C7860E77640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC958E3C-1BD3-4720-BB47-D948F5B05590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC958E3C-1BD3-4720-BB47-D948F5B05590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC958E3C-1BD3-4720-BB47-D948F5B05590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC958E3C-1BD3-4720-BB47-D948F5B05590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F7B9A0-E179-4DBC-A0EB-03815E8330D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F7B9A0-E179-4DBC-A0EB-03815E8330D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F7B9A0-E179-4DBC-A0EB-03815E8330D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F7B9A0-E179-4DBC-A0EB-03815E8330D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174E5061-CEF1-4B87-8E9F-8C7BF52528EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174E5061-CEF1-4B87-8E9F-8C7BF52528EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174E5061-CEF1-4B87-8E9F-8C7BF52528EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174E5061-CEF1-4B87-8E9F-8C7BF52528EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5464BC1-813A-4E05-97E8-84C01CC75936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5464BC1-813A-4E05-97E8-84C01CC75936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5464BC1-813A-4E05-97E8-84C01CC75936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5464BC1-813A-4E05-97E8-84C01CC75936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117DE24A-F4BA-4CB7-9036-8C7860E77640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117DE24A-F4BA-4CB7-9036-8C7860E77640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117DE24A-F4BA-4CB7-9036-8C7860E77640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117DE24A-F4BA-4CB7-9036-8C7860E77640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {502DC85E-82AF-49C7-A5D4-C282B76CCE1C}
+	EndGlobalSection
+EndGlobal
