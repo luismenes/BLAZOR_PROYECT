@@ -889,6 +889,9 @@
         }
       },
       "Blazor.Contacts.Wasm.Service/1.0.0": {
+        "dependencies": {
+          "Blazor.Contacts.Wasm.Shared": "1.0.0"
+        },
         "runtime": {
           "Blazor.Contacts.Wasm.Service.dll": {}
         }

@@ -1,8 +1,11 @@
 ﻿using Blazor.Contacts.Wasm.Shared;
 using Blazor.Contacts.Wasm.Shared.Models;
+using Dapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,29 +22,106 @@ namespace Blazor.Contacts.Wasm.Repositories
             _DbConnection = dbConnection;
         }
 
-        public Task DeleteContact(long Id)
+        /// <summary>
+        /// Todos estos metodos se Utilizan con Dapper
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        public async Task DeleteContact(long Id)
         {
-            throw new NotImplementedException();
+            var sql = @"DELETE FROM [Proceso].[Contacts] WHERE Id= @Id";
+            var affectedRows = await _DbConnection.ExecuteAsync(sql, new { Id = Id });
         }
 
-        public Task<IEnumerable<Contact>> GetAll()
+        public async Task<IEnumerable<Contact>> GetAll()
         {
-            throw new NotImplementedException();
+            var sql = @"SELECT [Id]
+                 ,[FirsName]
+                 ,[LastName]
+                 ,[Phone]
+                 ,[Address]
+             FROM [Proceso].[Contacts]";
+
+            return await _DbConnection.QueryAsync<Contact>(sql, new { });
         }
 
-        public Task<Contact> GetDetails(long Id)
+        public async Task<Contact> GetDetails(long Id)
         {
-            throw new NotImplementedException();
+            var sql = @"SELECT [Id]
+                 ,[FirsName]
+                 ,[LastName]
+                 ,[Phone]
+                 ,[Address]
+             FROM [Proceso].[Contacts]  WHERE Id= @Id";
+
+            return await _DbConnection.QueryFirstOrDefaultAsync<Contact>(sql, new { Id = Id });
         }
 
-        public Task<bool> InsertContact(Contact contact)
+        public async Task<bool> InsertContact(Contact contact)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Consulta SQL para la inserción
+                var sql = @"INSERT INTO [Proceso].[Contacts]
+                                        ([FirsName]
+                                        ,[LastName]
+                                        ,[Phone]
+                                        ,[Address])
+                                  VALUES
+                                        (@FirsName
+                                        ,@LastName
+                                        ,@Phone
+                                        ,@Address)";
+                                
+                // Ejecuta la consulta utilizando Dapper
+                var affectedRows = await _DbConnection.ExecuteAsync(sql, new
+                {
+                    contact.FirsName,
+                    contact.LastName,
+                    contact.Phone,
+                    contact.Address,
+                });
+
+                // Si se insertaron filas, considera la operación como exitosa
+                return affectedRows > 0;
+            }
+            catch (Exception ex)
+            {
+                // Manejo de errores aquí
+                return false;
+            }
         }
 
-        public Task<bool> UpdateContact(Contact contact)
+        public async Task<bool> UpdateContact(Contact contact)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Consulta SQL para la inserción
+                var sql = @"UPDATE [Proceso].[Contacts]
+                             SET [FirsName] = @FirsName
+                                ,[LastName] = @LastName
+                                ,[Phone] = @Phone
+                                ,[Address] = @Address
+                           WHERE Id= @Id";
+
+                // Ejecuta la consulta utilizando Dapper
+                var affectedRows = await _DbConnection.ExecuteAsync(sql, new
+                {
+                    contact.FirsName,
+                    contact.LastName,
+                    contact.Phone,
+                    contact.Address,
+                    contact.Id,
+                });
+
+                // Si se insertaron filas, considera la operación como exitosa
+                return affectedRows > 0;
+            }
+            catch (Exception ex)
+            {
+                // Manejo de errores aquí
+                return false;
+            }
         }
     }
 }

@@ -1267,6 +1267,9 @@
       "Blazor.Contacts.Wasm.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blazor.Contacts.Wasm.Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Blazor.Contacts.Wasm.Service.dll": {}
         },
@@ -2491,6 +2494,9 @@
       "Blazor.Contacts.Wasm.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blazor.Contacts.Wasm.Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Blazor.Contacts.Wasm.Service.dll": {}
         },

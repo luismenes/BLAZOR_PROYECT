@@ -12,7 +12,7 @@ builder.Services.AddRazorPages();
 
 //CadenaConexion
 string? dbConnection = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddSingleton<IDbConnection>(opciones => new SqlConnection(dbConnection));
+builder.Services.AddSingleton<IDbConnection>((opciones) => new SqlConnection(dbConnection));
 
 //Librerias Agregadas
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
