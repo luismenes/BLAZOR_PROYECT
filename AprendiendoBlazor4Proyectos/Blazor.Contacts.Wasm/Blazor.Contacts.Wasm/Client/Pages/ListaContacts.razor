@@ -1,0 +1,95 @@
+﻿@page "/"
+
+@inject IContactService ContactService
+@inject NavigationManager NavigationManager
+
+<h3>Contactos</h3>
+@Message
+
+<table class="table">
+    <tbody>
+        <tr>
+            <td colspan="2">
+                <a class="btn btn-success" href="/contactDetails">Add New</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@if (contacts == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <RadzenGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                FilterMode="FilterMode.Advanced" AllowPaging="true" PageSize="4"
+                AllowSorting="true" Data="@contacts" TItem="Contact" ColumnWidth="200px">
+        <Columns>
+
+            <RadzenGridColumn TItem="Contact" Title="Name">
+                <Template Context="contact">
+                    @($"{contact.FirsName} {contact.LastName}")
+                </Template>
+            </RadzenGridColumn>
+            <RadzenGridColumn TItem="Contact" Property="Phone" Title="Phone" />
+            <RadzenGridColumn TItem="Contact" Property="Address" Title="Address" />
+            <RadzenGridColumn TItem="Contact" Title="Edit">
+                <Template Context="data">
+                    <RadzenLink class="btn btn-secondary" Path="@($"/contactDetails/{data.Id}")" Text="Edit"></RadzenLink>
+                </Template>
+            </RadzenGridColumn>
+            <RadzenGridColumn TItem="Contact" Title="Delete">
+                <Template Context="data">
+                    <RadzenLink class="btn btn-danger" Path="@($"/contactdelete/{data.Id}")" Text="Delete"></RadzenLink>
+                </Template>
+            </RadzenGridColumn>
+
+        </Columns>
+    </RadzenGrid>
+    @* @* <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Direccion</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in contacts)
+            {
+                <tr>
+                    <td>@(item.FirsName + " " + item.LastName)</td>
+                    <td>@item.Phone</td>
+                    <td>@item.Address</td>
+                    <td>
+                        <a class="btn btn-success" href="/contactDetails/@item.Id">Editar</a>
+                        <a class="btn btn-danger" href="/contactdelete/@item.Id">Eliminar</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table> *@ 
+}
+
+
+
+@code {
+    IEnumerable<Contact>? contacts;
+    public string Message { get; set; } = null!;
+
+    protected async override Task OnInitializedAsync()
+    {
+        try
+        {
+            contacts = await ContactService.GetAll();
+        }
+        catch (Exception e)
+        {
+
+            Message = "Error-___" + e.Message;
+        }
+    }
+}

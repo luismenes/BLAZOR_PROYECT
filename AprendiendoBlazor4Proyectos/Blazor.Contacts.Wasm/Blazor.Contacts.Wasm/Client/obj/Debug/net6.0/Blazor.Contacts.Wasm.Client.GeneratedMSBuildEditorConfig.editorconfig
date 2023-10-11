@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/ContactDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/ContactDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/ListaContacts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFDb250YWN0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Shared/SurveyPrompt.razor]

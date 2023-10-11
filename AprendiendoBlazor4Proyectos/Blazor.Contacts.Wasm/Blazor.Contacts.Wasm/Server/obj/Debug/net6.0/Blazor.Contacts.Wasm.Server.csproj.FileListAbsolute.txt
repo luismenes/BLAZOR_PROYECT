@@ -232,3 +232,5 @@ C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos
 C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm\Server\obj\Debug\net6.0\Blazor.Contacts.Wasm.Server.pdb
 C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm\Server\obj\Debug\net6.0\Blazor.Contacts.Wasm.Server.genruntimeconfig.cache
 C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm\Server\obj\Debug\net6.0\ref\Blazor.Contacts.Wasm.Server.dll
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm\Server\bin\Debug\net6.0\Radzen.Blazor.dll
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\Blazor.Contacts.Wasm\Blazor.Contacts.Wasm\Server\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
