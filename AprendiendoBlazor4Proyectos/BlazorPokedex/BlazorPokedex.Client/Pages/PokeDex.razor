@@ -4,13 +4,13 @@
 @inject IPokeApiClient PokeApiClient
 
 <div>
+    <PokemonGrid Pokemons="Pokemons" NumberOfRows="10" />
     <div class="row">
         <div class="col">
-            <Pagination MetaData="paginationMetaData" Spread="5" SelectedPage="SelectedPage"/>
+            <Pagination MetaData="paginationMetaData" Spread="10" SelectedPage="SelectedPage"/>
         </div>
     </div>
 
-    <PokemonGrid Pokemons="Pokemons" NumberOfRows="5" />
 </div>
 
 @code {
