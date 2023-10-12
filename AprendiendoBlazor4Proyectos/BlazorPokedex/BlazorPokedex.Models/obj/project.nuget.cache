@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wri5gQ6WmrDpNIcmfeG1uBJL9kHlMW0GM2GF8NyJ+OaTbMtkFVGBbQI64DXP8ubnqnnfynXOqZsDWh4vCiEmoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Teletrabajo\\Documents\\GitHub\\BLAZOR_PROYECT\\AprendiendoBlazor4Proyectos\\BlazorPokedex\\BlazorPokedex.Models\\BlazorPokedex.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Teletrabajo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
