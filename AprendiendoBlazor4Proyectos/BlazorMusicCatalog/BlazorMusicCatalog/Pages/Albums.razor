@@ -1,0 +1,65 @@
+﻿@page "/"
+@inject IAlbumService AlbumService
+
+@if (albums == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="container">
+        <h1 class="text-center text-muted">Albums</h1>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td colspan="2"><a href="/albumAdd">Add New Album</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+
+        @for (int i = 0; i < NumberOfRows; i++)
+        {
+            <div class="row">
+                @foreach (var album in albums.Skip(i * 3).Take(3))
+                {
+                    <div class="col-xs-6 col-md-4">
+                        <div>
+                            <a href="/albumView/@album.Id">
+                                <img src="data:image/png;base64,@(Convert.ToBase64String(album.CoverImage))" />
+                            </a>
+                            <div>
+                                <h6><a href="/albumView/@album.Id">@album.Title - @album.Author</a></h6>
+                            </div>
+                            <div>
+                                <a href="/albumAdd/@album.Id">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+}
+
+
+@code {
+
+    IEnumerable<Album> albums;
+    public int NumberOfRows { get; set; } = 10;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            albums = await AlbumService.GetAlbums();
+        }
+        catch (Exception)
+        {
+
+            throw;
+        }
+    }
+
+}

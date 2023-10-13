@@ -1,0 +1,17 @@
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\bin\Debug\net6.0\BlazorMusicCatalog.Data.deps.json
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\bin\Debug\net6.0\BlazorMusicCatalog.Data.runtimeconfig.json
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\bin\Debug\net6.0\BlazorMusicCatalog.Data.dll
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\bin\Debug\net6.0\BlazorMusicCatalog.Data.pdb
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\bin\Debug\net6.0\BlazorMusicCatalog.Models.dll
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\bin\Debug\net6.0\BlazorMusicCatalog.Models.pdb
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.csproj.AssemblyReference.cache
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.AssemblyInfoInputs.cache
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.AssemblyInfo.cs
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.csproj.CoreCompileInputs.cache
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.csproj.CopyComplete
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.dll
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\refint\BlazorMusicCatalog.Data.dll
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.pdb
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\BlazorMusicCatalog.Data.genruntimeconfig.cache
+C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog.Data\obj\Debug\net6.0\ref\BlazorMusicCatalog.Data.dll

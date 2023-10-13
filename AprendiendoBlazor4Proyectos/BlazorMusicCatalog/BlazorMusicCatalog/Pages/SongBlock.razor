@@ -1,0 +1,52 @@
+﻿@using System.IO
+
+<table class="table">
+    <tr>
+        <td>Name</td>
+        <td><input type="text" @bind="Song.Name" /></td>
+    </tr>
+    <tr>
+        <td>Upload</td>
+        <td>
+            <p>
+                <InputFile OnChange="LoadSong" />
+                <button @onclick=@RemoveSong>Remove</button>
+            </p>
+        </td>
+
+    </tr>
+</table>
+
+@code {
+    [Parameter]
+    public Song Song { get; set; }
+
+    [Parameter]
+    public EventCallback<Song> OnSongChanged { get; set; }
+    [Parameter]
+    public EventCallback<Song> OnSongRemoved { get; set; }
+
+    async Task LoadSong(InputFileChangeEventArgs e)
+    {
+        var folderName = Path.Combine("wwwroot", "songs");
+        var pathToSave = Path.Combine(Directory.GetCurrentDirectory(), folderName);
+        var fullPath = Path.Combine(pathToSave, e.File.Name.Replace(" ", "-"));
+
+        Song.Extension = e.File.Name.Substring(e.File.Name.Count() - 3, 3);
+        Song.Path = e.File.Name.Replace(" ", "-");
+
+        using (var ms = new MemoryStream())
+        {
+            await e.File.OpenReadStream(Int32.MaxValue).CopyToAsync(ms);
+            await File.WriteAllBytesAsync(fullPath, ms.ToArray());
+        }
+
+        await OnSongChanged.InvokeAsync(Song);
+    }
+
+    async Task RemoveSong()
+    {
+        await OnSongRemoved.InvokeAsync(Song);
+    }
+
+}

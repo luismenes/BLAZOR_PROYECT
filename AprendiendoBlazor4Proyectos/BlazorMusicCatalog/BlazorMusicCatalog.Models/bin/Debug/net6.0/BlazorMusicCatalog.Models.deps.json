@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BlazorMusicCatalog.Models/1.0.0": {
+        "runtime": {
+          "BlazorMusicCatalog.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlazorMusicCatalog.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

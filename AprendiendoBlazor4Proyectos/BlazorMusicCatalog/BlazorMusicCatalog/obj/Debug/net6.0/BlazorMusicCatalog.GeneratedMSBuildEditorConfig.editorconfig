@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorMusicCatalog
+build_property.RootNamespace = BlazorMusicCatalog
+build_property.ProjectDir = C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Teletrabajo\Documents\GitHub\BLAZOR_PROYECT\AprendiendoBlazor4Proyectos\BlazorMusicCatalog\BlazorMusicCatalog
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/AlbumAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxidW1BZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/Albums.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxidW1zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/AlbumView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxidW1WaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/SongBlock.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ0Jsb2NrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-48vpo0b851
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wm9sifiugu
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Teletrabajo/Documents/GitHub/BLAZOR_PROYECT/AprendiendoBlazor4Proyectos/BlazorMusicCatalog/BlazorMusicCatalog/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

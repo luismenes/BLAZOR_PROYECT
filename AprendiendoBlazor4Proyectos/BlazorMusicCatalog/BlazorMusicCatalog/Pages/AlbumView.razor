@@ -1,0 +1,59 @@
+﻿@page "/albumView/{id:int}"
+@inject IAlbumService AlbumService
+
+
+@if (album != null && album.Songs != null)
+{
+    <div class="container">
+        <div class="row flow-offset-1">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <img src="data:image/png;base64,@(Convert.ToBase64String(album.CoverImage))" />
+                    <h1 class="text-muted">@album.Title</h1>
+                </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    @foreach (var song in album.Songs)
+    {
+        <div class="row flow-offset-1">
+            <div class="col-md-4">
+                <span>@song.Name</span>
+            </div>
+            <div class="col-md-4">
+                <audio controls="controls" id="@song.Id" src="/songs/@(song.Path)"></audio>
+            </div>
+        </div>
+    }
+
+}
+else
+{
+    <p><em>Loading...</em></p>
+}
+
+
+
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    Album album;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (id > 0)
+            album = await AlbumService.GetAlbumDetails(id);
+    }
+
+}
